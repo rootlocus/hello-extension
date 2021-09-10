@@ -4,10 +4,10 @@
     "version": "0.1.0",
     "manifest_version": 3,
     "icons": {
-        "16" : "./images/aces.png",
-        "32" : "./images/aces.png",
-        "48" : "./images/aces.png",
-        "128" : "./images/aces.png"
+        "16" : "./images/ace.png",
+        "32" : "./images/ace.png",
+        "48" : "./images/ace.png",
+        "128" : "./images/ace.png"
     },
     "background": {
         "service_worker": "./background.js"
@@ -15,10 +15,10 @@
     "action": {
         "default_popup": "./popup.html",
         "default_icons": {
-            "16" : "./images/aces.png",
-            "32" : "./images/aces.png",
-            "48" : "./images/aces.png",
-            "128" : "./images/aces.png"
+            "16" : "./images/ace.png",
+            "32" : "./images/ace.png",
+            "48" : "./images/ace.png",
+            "128" : "./images/ace.png"
         }
     },
     "options_page": "./options.html",
@@ -29,7 +29,7 @@
         "scripting"
     ],
     "host_permissions": [
-        "https://www.google.com",
+        "https://www.google.com/*",
         "<all_urls>"
     ]
 }
